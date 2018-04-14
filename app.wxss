@@ -1,0 +1,52 @@
+/**app.wxss**/
+page{
+  font-family: "MICROSOFT YaHei";
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.page_header{
+  display: flex;
+  justify-content: center;
+  border-bottom: 2rpx solid #ccc;
+  margin-bottom: 10rpx 
+}
+.page_header_text{
+  padding: 20rpx 40rpx;
+  color: #999;
+  font-size: 40rpx
+}
+
+.page-body{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+}
+.item{
+  display: flex;
+  padding: 20rpx 40rpx;
+  border-bottom: 2rpx  solid #eee;
+
+}
+.item .poster{
+  width: 128rpx;
+  height: 128rpx;
+}
+.item .meta{
+  flex: 1
+}
+.item .title,.item .sub-title{
+  display: block;
+  margin-bottom: 32rpx;
+}
+.item .title{
+  font-size: 22rpx;
+}
+.item .artists{
+  font-size: 26rpx;
+}
+.item .rating{
+  font-size: 32rpx;
+  color: red
+}
